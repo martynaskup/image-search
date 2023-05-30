@@ -8,8 +8,8 @@
     "gh-pages": "^2.0.1",
     "lodash": "^4.17.21",
     "lodash.template": "^4.5.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
