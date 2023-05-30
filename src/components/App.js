@@ -6,11 +6,11 @@ import Loader from './Loader';
 class App extends Component {
   state = { images: [], loading: false, firstRequest: true };
 
-  onSearchSubmit = async term => {
+  onSearchSubmit = async (term) => {
     this.setState({ firstRequest: false });
     this.setState({ loading: true });
     const response = await unsplash.get('/search/photos', {
-      params: { query: term }
+      params: { query: term },
     });
 
     this.setState({ images: response.data.results });

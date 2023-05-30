@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SearchBox extends Component {
   state = { searchText: '' };
 
-  onFormSubmit = e => {
+  onFormSubmit = (e) => {
     e.preventDefault();
     this.props.onSubmit(this.state.searchText);
   };
@@ -18,7 +18,7 @@ class SearchBox extends Component {
               type="text"
               placeholder="Search a picture"
               value={this.state.searchText}
-              onChange={e => this.setState({ searchText: e.target.value })}
+              onChange={(e) => this.setState({ searchText: e.target.value })}
             />
             <i
               className="circular search link icon"
