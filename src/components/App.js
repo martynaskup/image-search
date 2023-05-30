@@ -1,4 +1,3 @@
-import React from 'react';
 import SearchBoxWithLoader from './SearchBoxWithLoader';
 
 export default function App() {

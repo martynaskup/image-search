@@ -1,5 +1,5 @@
 import SearchBox from './SearchBox';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import unsplash from '../api/unsplash';
 import Loader from './Loader';
 

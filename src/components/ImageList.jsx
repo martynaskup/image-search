@@ -1,4 +1,3 @@
-import React from 'react';
 import './ImageList.css';
 import ImageCard from './ImageCard';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import ImageList from './ImageList';
 
 const Loader = ({ images, loading, firstRequest }) => {

@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const SearchBox = ({ handleSearch }) => {
   const [searchText, setSearchText] = useState('');
   function onFormSubmit(e) {
     e.preventDefault();
-    console.log(searchText);
     handleSearch(searchText);
   }
 
