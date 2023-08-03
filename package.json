@@ -1,7 +1,7 @@
 {
   "name": "image-search",
   "version": "0.1.0",
-  "homepage": "https://snikerslala.github.io/image-search/",
+  "homepage": "https://martynaskup.github.io/image-search/",
   "private": true,
   "dependencies": {
     "axios": "^1.4.0",
